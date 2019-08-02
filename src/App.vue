@@ -1,18 +1,18 @@
 <template>
-  <div id="app">
-    <Visualisation></Visualisation>
-  </div>
+	<div id="app">
+		<LanguagesChart></LanguagesChart>
+	</div>
 </template>
 
 <script>
-import Visualisation from './components/Visualisation.vue'
+	import LanguagesChart from './components/LanguagesChart.vue'
 
-export default {
-  name: 'app',
-  components: {
-    Visualisation
-  }
-}
+	export default {
+		name: 'app',
+		components: {
+			LanguagesChart
+		}
+	}
 </script>
 
 <style lang="sass">
