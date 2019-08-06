@@ -34,10 +34,10 @@
 		methods: {
 			fillData() {
 				this.dataCollection = {
-					labels: ['CSS', 'HTML', 'JS', 'PHP'],
+					labels: ['Vue', 'Angular', 'React', 'Jekyll'],
 					datasets: [{
 						label: 'Languages',
-						data: [85, 95, 75, 30],
+						data: [50, 20, 20, 40],
 						backgroundColor: [
 						'rgba(236,64,122 ,.1)',
 						'rgba(41,182,246 ,.1)',

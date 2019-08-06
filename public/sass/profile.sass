@@ -1,8 +1,9 @@
 .profile
-	flex-basis: 20%
-
+	min-width: 100vw
+	@media screen and (min-width: 768px)
+		flex-basis: 20%
+	@include scroll
 	&__img
-		max-height: 400px
 		max-width: 100%
 
 .content

@@ -1,2 +1,27 @@
 .skills
-	flex-grow: 1
+	min-width: 100vw
+	@media screen and (min-width: 768px)
+		flex-basis: 50%
+		max-width: 50%
+	@include scroll
+	padding:
+		top: 40px
+		right: 40px
+		bottom: 40px
+		left: 40px
+	&__headline
+		margin:
+			bottom: 40px
+	.charts
+		display: flex
+		&__container
+			display: flex
+			flex-wrap: nowrap
+			max-width: 100%
+		.chart
+			&__container
+				flex-basis: 30%
+				max-width: 50%
+				position: relative
+				margin:
+					bottom: 40px

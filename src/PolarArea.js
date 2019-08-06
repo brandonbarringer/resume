@@ -4,8 +4,7 @@ export default {
 	extends: PolarArea,
 	props: ['chartData', 'options'],
 	mixins: [mixins.reactiveProp],
-	name: 'Chart',
 	mounted() {
-		this.renderChart(this.chartData, this.options)
+		this.renderChart(this.chartData, this.options);
 	}
 }
