@@ -11,7 +11,8 @@
 					<p>I'm a huge nerd that is constantly looking for the best solution to any problem in life and at work, like the most efficient route to take home, the perfect way to stack a sandwhich and the actual solution to <code>8&#247;2(2+2)</code> <small><em> It's 16 by the way</em></small></p>
 					<p>Anyway, if you're interested in having a chat just..</p>
 				</div>
-				<a href="#!" class="button">Contact Me</a>
+				<a href="mailto:barringerbrandon@gmail.com" class="button">Contact Me</a>
+				<p><small>Oh! And don't forget to checkout my <a href="https://github.com/brandonbarringer">GitHub</a>. Its a little light so you might want to check out my <a href="https://gist.github.com/brandonbarringer">Gists</a> too.</small></p>
 			</div>
 		</aside>
 		<section id="history" class="history">
