@@ -1,6 +1,6 @@
 .skills
-	min-width: 100vw
 	@media screen and (min-width: 768px)
+		min-width: 100vw
 		flex-basis: 50%
 		max-width: 50%
 		min-width: auto
@@ -14,15 +14,23 @@
 		margin:
 			bottom: 40px
 	.charts
-		display: flex
+		@media screen and (min-width: 768px)
+			display: flex
 		&__container
 			display: flex
-			flex-wrap: nowrap
-			max-width: 100%
+			flex-wrap: wrap
+			@media screen and (min-width: 768px)
+				display: flex
+				flex-wrap: nowrap
+				max-width: 100%
 		.chart
+			max-width: 100%
 			&__container
-				flex-basis: 30%
-				max-width: 50%
+				width: 100%
 				position: relative
 				margin:
 					bottom: 40px
+				@media screen and (min-width: 768px)
+					flex-basis: 30%
+					max-width: 50%
+				

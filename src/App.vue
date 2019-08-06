@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+	<div id="app">
+		<router-view/>
+	</div>
 </template>
 
 <style lang="sass">
@@ -10,5 +10,6 @@
 @import './public/sass/variables.sass'
 @import './public/sass/global.sass'
 @import './public/sass/button.sass'
+
 
 </style>

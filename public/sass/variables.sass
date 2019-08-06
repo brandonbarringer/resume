@@ -2,8 +2,9 @@ $primary: #1B3858
 $accent: rgba(245,0,87 ,1)
 
 @mixin scroll
-	overflow-y: auto
-	&::-webkit-scrollbar
-		display: none
-	&::-webkit-scrollbar-track
-		display: none
+	@media screen and (min-width: 768px)
+		overflow-y: auto
+		&::-webkit-scrollbar
+			display: none
+		&::-webkit-scrollbar-track
+			display: none

@@ -1,12 +1,5 @@
 <template>
 <main>
-	<nav class="mobile-nav">
-		<ul class="mobile-nav__container">
-			<li class="mobile-nav__item"><a href="#profile" class="mobile-nav__link">About</a></li>
-			<li class="mobile-nav__item"><a href="#history" class="mobile-nav__link">History</a></li>
-			<li class="mobile-nav__item"><a href="#skills" class="mobile-nav__link">Skills</a></li>
-		</ul>
-	</nav>
 	<div class="container">
 		<aside id="profile" class="profile">
 			<img src="./../../public/img/brandon-barringer.jpg" alt="Brandon Barringer" class="profile__img">
@@ -182,5 +175,4 @@ export default {
 	@import './public/sass/profile.sass'
 	@import './public/sass/history.sass'
 	@import './public/sass/skills.sass'
-	@import './public/sass/nav.sass'
 </style>

@@ -15,9 +15,11 @@
 			return {
 				dataCollection: null,
 				options: {
-					maintainAspectRatio: false,
 					legend: {
-						position: 'bottom'
+						position: 'bottom',
+						labels: {
+							boxWidth: 10
+						}
 					},
 					layout: {
 						padding: {
