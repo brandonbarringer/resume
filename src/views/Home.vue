@@ -12,20 +12,44 @@
 					<p>Anyway, if you're interested in having a chat just..</p>
 				</div>
 				<a href="mailto:barringerbrandon@gmail.com" class="button">Contact Me</a>
-				<p><small>Oh! And don't forget to checkout my <a href="https://github.com/brandonbarringer">GitHub</a>. Its a little light so you might want to check out my <a href="https://gist.github.com/brandonbarringer">Gists</a> too.</small></p>
+				<p><small>Oh! And don't forget to checkout my <a href="https://github.com/brandonbarringer">GitHub</a>. If you want to see some of my more "fun" code, check out my <a href="https://gist.github.com/brandonbarringer">Gists</a> too.</small></p>
 			</div>
 		</aside>
 		<section id="history" class="history">
 			<div class="history__header">
-				<h1 class="history__headline headline">History of Learning, Solving & Creating</h1>
+				<h1 class="history__headline headline">History of Learning, Solving &amp; Creating</h1>
 			</div>
 			<h2 class="history__section-headline secondary-headline">Work</h2>
 			<div class="cards">
 				<article class="card">
 					<div class="card__container">
 						<div class="card__date-container">
-							<time class="card__date card__date--start">Aug 2013</time>
+							<time class="card__date card__date--start">Nov 2020</time>
 							<time class="card__date card__date--end">Current</time>
+						</div>
+						<div class="card__content-container">
+							<h1 class="card__title">KPS3</h1>
+							<p class="card__subheadline subheadline">Full Stack Developer</p>
+						</div>
+					</div>
+				</article>
+				<article class="card">
+					<div class="card__container">
+						<div class="card__date-container">
+							<time class="card__date card__date--start">Nov 2019</time>
+							<time class="card__date card__date--end">Nov 2020</time>
+						</div>
+						<div class="card__content-container">
+							<h1 class="card__title">KPS3</h1>
+							<p class="card__subheadline subheadline">Designer / Full Stack Developer</p>
+						</div>
+					</div>
+				</article>
+				<article class="card">
+					<div class="card__container">
+						<div class="card__date-container">
+							<time class="card__date card__date--start">Aug 2013</time>
+							<time class="card__date card__date--end">Nov 2019</time>
 						</div>
 						<div class="card__content-container">
 							<h1 class="card__title">Noble Studios</h1>
@@ -146,6 +170,27 @@
 				<div class="charts__container">
 					<DesignKnowledgeChart></DesignKnowledgeChart>
 					<DesignToolsChart></DesignToolsChart>
+				</div>
+			</div>
+			<h2 class="skills__section-headline secondary-headline">Design Examples</h2>
+			<div class="charts">
+				<div class="charts__container">
+					<span>
+						<img src="./../../public/img/yodlee.jpg" alt="">
+					</span>
+					<span>
+						<img src="./../../public/img/central-coast.jpg" alt="">
+					</span>
+				</div>
+			</div>
+			<div class="charts">
+				<div class="charts__container">
+					<span>
+						<img src="./../../public/img/gsr.jpg" alt="">
+					</span>
+					<span>
+						<img src="./../../public/img/klaire.jpg" alt="">
+					</span>
 				</div>
 			</div>
 		</section>

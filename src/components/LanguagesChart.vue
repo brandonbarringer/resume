@@ -39,7 +39,7 @@
 					labels: ['CSS', 'HTML', 'JS', 'PHP'],
 					datasets: [{
 						label: 'Languages',
-						data: [85, 95, 75, 30],
+						data: [90, 95, 90, 85],
 						backgroundColor: [
 						'rgba(236,64,122 ,.1)',
 						'rgba(41,182,246 ,.1)',
