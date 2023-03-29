@@ -36,21 +36,23 @@
 		methods: {
 			fillData() {
 				this.dataCollection = {
-					labels: ['CSS', 'HTML', 'JS', 'PHP'],
+					labels: ['CSS', 'HTML', 'JS', 'PHP', 'Python'],
 					datasets: [{
 						label: 'Languages',
-						data: [90, 95, 90, 85],
+						data: [90, 95, 90, 85, 70],
 						backgroundColor: [
 						'rgba(236,64,122 ,.1)',
 						'rgba(41,182,246 ,.1)',
 						'rgba(156,204,101 ,.1)',
-						'rgba(255,112,67 ,.1)'
+						'rgba(255,112,67 ,.1)',
+						'rgba(138,23,224 ,.1)'
 						],
 						borderColor: [
 						'rgba(236,64,122 ,.5)',
 						'rgba(41,182,246 ,.5)',
-						'rgba(156,204,101 ,.5)',
-						'rgba(255,112,67 ,.5)'
+						'rgba(156,204,101,.5)',
+						'rgba(255,112,67,.5)',
+						'rgba(138,23,224,.5)'
 						]
 					}]
 				}
